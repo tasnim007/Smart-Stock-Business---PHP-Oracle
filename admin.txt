@@ -1,0 +1,23 @@
+create table admin(
+adminid number(10,0),
+fname varchar2(20),
+lname varchar2(20),
+gender varchar2(20),
+passward varchar2(20),
+dateofbirth date,
+username varchar2(20),
+address varchar2(20),
+phoneno varchar2(20),
+email varchar2(20),
+PRIMARY KEY (adminid)
+);
+
+CREATE SEQUENCE seq_admin START WITH 1 INCREMENT BY 1;
+
+CREATE OR REPLACE TRIGGER tr_admin
+BEFORE INSERT ON admin
+FOR EACH ROW
+BEGIN
+    SELECT seq_admin.nextval INTO :new.adminid FROM dual;
+END;
+/
