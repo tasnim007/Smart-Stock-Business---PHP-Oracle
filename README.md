@@ -18,4 +18,4 @@ The aim of this project is to automate the functionality of a brokerage house (w
 
 ## Screen Shot:
 
-![ScreenShot](https://drive.google.com/file/d/0B-imJKBX1jx3aEVxTHIyV0FndnM/view?usp=sharing)
+![ScreenShot](https://github.com/tasnim007/Tetris---C-using-iGraphics/blob/master/images/stock.jpg)
